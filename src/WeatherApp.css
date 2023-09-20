@@ -26,9 +26,8 @@
   border-radius: 2px;
 }
 
-#temperature,
-#degrees {
-  font-size: 36px;
+#temperature {
+  font-size: 50px;
 }
 
 hr {
@@ -87,4 +86,11 @@ h2 {
 
 .github-link a:hover {
   color: white;
+}
+
+.units {
+  position: absolute;
+  font-size: 20px;
+  top: 265px;
+  font-weight: bold;
 }
